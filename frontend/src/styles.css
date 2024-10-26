@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+    background-color: #e8f6f3; /* Soft mint background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  h1 {
+    color: #34495e; /* Darker navy color */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #6ab04c; /* Light green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: #2980b9; /* Blue */
+  }
+  
+  a:hover {
+    color: #21618c; /* Darker blue */
+  }
+  
+  /* Form Styling */
+  form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(135deg, #d1f2eb, #a3e4d7);
+  }
+  
+  /* Form Labels */
+  .form-label {
+    font-size: 1.2rem;
+    color: #2c3e50; /* Deep gray-blue */
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+  }
+  
+  input:focus {
+    border-color: #45aaf2; /* Light blue focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(69, 170, 242, 0.6);
+  }
+  
+  /* Table Styling */
+  table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #dcdde1;
+  }
+  
+  th {
+    background-color: #3498db; /* Blue header */
+    color: white;
+  }
+  
+  td {
+    background-color: #f0f4f7; /* Light grayish-blue */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #eafaf1; /* Soft green alternate row */
+  }
+  
+  /* Error Message Styling */
+  .error {
+    color: #eb3b5a;
+    background-color: #ffcccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Inner Container */
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f7f9f9; /* Light white-gray */
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(135deg, #fef9e7, #fdebd0);
+  }
+  
